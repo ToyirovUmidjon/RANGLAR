@@ -1,0 +1,34 @@
+.background-image {
+	background-color: #00dbde;
+	background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+}
+.header {
+	display: flex;
+	justify-content: center;
+	font-size: 45px;
+	color: #fff;
+}
+.image-top {
+	display: flex;
+	justify-content: center;
+	margin: 10px;
+}
+
+.blur-effect {
+	filter: blur(3px);
+}
+.grayscale-effect {
+	filter: grayscale(10);
+}
+.brightness-effect {
+	filter: brightness(3);
+}
+.contrast-effect {
+	filter: contrast(2);
+}
+.invert-effect {
+	filter: invert(10);
+}
+.opacity-effect {
+	filter: opacity(0.6);
+}
